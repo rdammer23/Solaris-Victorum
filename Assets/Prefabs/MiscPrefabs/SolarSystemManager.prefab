@@ -1,0 +1,256 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &124784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 474594}
+  - 114: {fileID: 11421742}
+  - 114: {fileID: 11454824}
+  - 114: {fileID: 11488812}
+  - 114: {fileID: 11403642}
+  - 114: {fileID: 11473780}
+  - 114: {fileID: 11469226}
+  - 114: {fileID: 11456242}
+  - 114: {fileID: 11449348}
+  - 114: {fileID: 11405732}
+  - 114: {fileID: 11478392}
+  - 114: {fileID: 11461418}
+  - 114: {fileID: 11484282}
+  - 114: {fileID: 11484110}
+  - 114: {fileID: 11468676}
+  m_Layer: 0
+  m_Name: SolarSystemManager
+  m_TagString: SolarSystemManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &474594
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124784}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11403642
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124784}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45d6612a7228bac43be87bdf72263bec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11405732
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124784}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb7526e6a045ed74e9ac56f67eb301bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11421742
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48d3fd9ce0d4ae948b417e3d9b7cdfc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11449348
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124784}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a4e183cc2e36ff49b052aae00a4e232, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToSpawn: {fileID: 141652, guid: 5946e7feb68ef9b4bb38f375073b73cf, type: 2}
+  laserPulse: []
+--- !u!114 &11454824
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124784}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e6926771329caf4fa6e8eca4c654b8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPointName: {fileID: 174830, guid: 3874ad399b51d3e499bcfa7f2085dc27, type: 2}
+  patrolPointNameGO: {fileID: 178028, guid: 5d37a704c29d0bc44b4f4809653eca27, type: 2}
+  shuttleShip: {fileID: 194690, guid: 80abd55b4d563fb46b4cc6927129e90b, type: 2}
+  tinyShip: {fileID: 172450, guid: a4de983d0f51fb34c963568ff3361859, type: 2}
+  smallShip: {fileID: 139288, guid: 04c980da50939d14b86a5e523f274a7c, type: 2}
+  poolManager: {fileID: 0}
+  npcGO: {fileID: 0}
+  pooledNPC: []
+  moons: []
+--- !u!114 &11456242
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124784}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc67ea70c080dae458cb3f03f0fa681e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11461418
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3cda1444e5dbd748bbf9281299fe9b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  svURL: http://solarisvictorum.space/solarisvictorum/php/SVFunctions.php?whichfunction=
+--- !u!114 &11468676
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37893d63451fc68499cd7373599a017e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11469226
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 504c7749534197c45b7d2aba2557bb4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11473780
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124784}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c21316662508a3b40b8bf11ee188c8ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowsFireParent: {fileID: 0}
+--- !u!114 &11478392
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124784}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28ee9f787a0df6544bc0ee524e0f1269, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yellowLaser: {fileID: 193860, guid: 0b8656698b3a9e3479d6d24d6656f6eb, type: 2}
+  yellowLaserList: []
+--- !u!114 &11484110
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b52ee36a8d232d4593c822f01e94bb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11484282
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a34da965522f5a7458095c0a812b2802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  humanShip1: {fileID: 194690, guid: 80abd55b4d563fb46b4cc6927129e90b, type: 2}
+  humanShip2: {fileID: 172450, guid: a4de983d0f51fb34c963568ff3361859, type: 2}
+  humanShip3: {fileID: 139288, guid: 04c980da50939d14b86a5e523f274a7c, type: 2}
+  karakalShip1: {fileID: 100216, guid: 379c7118000a037489109648bf81e1a6, type: 2}
+  karakalShip2: {fileID: 112504, guid: aa8067e61b10d9f4087dfd4fe27ff0d1, type: 2}
+  karakalShip3: {fileID: 190396, guid: ed4112da33b5c6d4187ac0d25da46a54, type: 2}
+  avesShip1: {fileID: 154206, guid: cd106897f87b9af49aff9f325aac6b87, type: 2}
+  avesShip2: {fileID: 122096, guid: b1a23ae3f6e8f1641b646198e642d81c, type: 2}
+  avesShip3: {fileID: 196614, guid: 3db1679bdd99e8842b61480529c22c71, type: 2}
+  esotericShip1: {fileID: 162268, guid: 51f2f69d2a772794d84c913fca40644b, type: 2}
+  esotericShip2: {fileID: 114066, guid: 4be78ce4a10da9c4c943774de99e91f3, type: 2}
+  esotericShip3: {fileID: 124404, guid: 2f97c93662d079d49bb5c65585ee55eb, type: 2}
+  nischeShip1: {fileID: 199136, guid: c7d61a81ebc2ae9438f2c62bbba02341, type: 2}
+  nischeShip2: {fileID: 124400, guid: be762789556435a4faadd41da758550e, type: 2}
+  nischeShip3: {fileID: 194792, guid: 6c95af7ecd9ebf2468974e5632cdfbbd, type: 2}
+  trichoShip1: {fileID: 119324, guid: 5a119309144ba6c44b66fb109a0ed14d, type: 2}
+  trichoShip2: {fileID: 188138, guid: 0442c6c103437d948b5b50f04f4e714f, type: 2}
+  trichoShip3: {fileID: 120524, guid: 874256abb844c5449aaa01d6339f09f2, type: 2}
+  mavinShip1: {fileID: 139162, guid: d77054a820049be4a8a40591710fbbf5, type: 2}
+  mavinShip2: {fileID: 195044, guid: c83dab2b3264c984b8f791c048714418, type: 2}
+  mavinShip3: {fileID: 191972, guid: c48e5d8b1c26c4a4c9c6d5f0722995ae, type: 2}
+  estatiShip1: {fileID: 149360, guid: ecf4285458d0bf840833d48f4582e50b, type: 2}
+  estatiShip2: {fileID: 121066, guid: 0904520ccbec98b4e8da88cd8ee655ac, type: 2}
+  estatiShip3: {fileID: 180502, guid: 3fd54fde7f3663b47b3a9e1efc646c4d, type: 2}
+  teiidShip1: {fileID: 121084, guid: dd9a3d43edb39de4c86ec9ccc51b6d27, type: 2}
+  teiidShip2: {fileID: 121246, guid: 7be9b9e9f14baf849b4bc47b4730e509, type: 2}
+  teiidShip3: {fileID: 161776, guid: 3100ae04f43aa794bb221ad1f7c30e61, type: 2}
+  roidalShip1: {fileID: 102326, guid: a6f856a93ac2b5a41874be3c565c0305, type: 2}
+  roidalShip2: {fileID: 196722, guid: efab6d08553536441ad7bc1201d431ba, type: 2}
+  roidalShip3: {fileID: 164892, guid: 0362afd4507b80043bf782670fc3e617, type: 2}
+  aerifoShip1: {fileID: 171896, guid: cf6991a60b4033449902db089656ce54, type: 2}
+  aerifoShip2: {fileID: 135640, guid: c6208c431596ebd439761abcbf8ba6f1, type: 2}
+  aerifoShip3: {fileID: 106158, guid: 910dd926d3087b34fb71fc220f05fad9, type: 2}
+--- !u!114 &11488812
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124784}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07fa1589259b2364099cfb8bf63346c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 124784}
+  m_IsPrefabParent: 1

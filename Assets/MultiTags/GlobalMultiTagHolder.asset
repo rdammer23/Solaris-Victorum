@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c4655cdf20e6457ea426ba121929201, type: 3}
+  m_Name: GlobalMultiTagHolder
+  m_EditorClassIdentifier: 
+  GlobalTagList:
+  - Name: Enemy
+    ID: 0
+  - Name: Red
+    ID: 0
+  - Name: Orange
+    ID: 0
+  - Name: BasicNPC
+    ID: 0
+  - Name: BasicNPCSpawn
+    ID: 0
+  - Name: Explosion
+    ID: 0
+  - Name: BasicNPCPatrolPoint
+    ID: 0
+  - Name: HumanPatrolPoint
+    ID: 0
+  - Name: Player
+    ID: 0
+  - Name: LaserMount
+    ID: 0
+  - Name: YellowLaser
+    ID: 0
+  - Name: ShipLayer
+    ID: 0
+  - Name: AccountExist
+    ID: 0
+  - Name: NPCHuman
+    ID: 0
+  - Name: Ship1
+    ID: 0
+  - Name: Ship2
+    ID: 0
+  - Name: Ship3
+    ID: 0
+  - Name: Patrol
+    ID: 0

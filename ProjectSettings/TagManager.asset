@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - LocalStar
+  - Planet
+  - PlanetAtmosphere
+  - RedStarSmall
+  - SolarSystemManager
+  - Moon
+  - MoonAtmosphere
+  - SpaceScene_PlanetRings
+  - SpaceScene_Nebula
+  - SpaceScene_Planet
+  - SpaceScene_Galaxy
+  - SpaceScene_LocalStar
+  - Thruster
+  - SpaceScene_Moon
+  - SpaceScene_Camera
+  - Waypoint
+  - Player
+  - Enemy
+  - Breadcrumb
+  - Waypoint
+  - Weapon
+  - LaserBeam
+  - PlayerLight
+  - LaserMount
+  - FireWeaponWindow
+  - LoadGame
+  - RaceMenu
+  - PlayerName
+  - RaceDescription
+  - SaveAndContinue
+  - AccountFound
+  - LoadAccount
+  - HumanSpawnPoint
+  - MoonTexture
+  - PatrolPoint
+  - RayCastPosition
+  - NPCHealth
+  - NPCName
+  - RaceButton
+  - AlertSystem
+  - Savable
+  - MySQL
+  - SelectName
+  - CheckName
+  - Password
+  - PasswordConfirm
+  - LoginName
+  - LoginPassword
+  - LoginText
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Enemy
+  - Breadcrumb
+  - Waypoint
+  - Weapons
+  - Obstacle
+  - HeavenlyBody
+  - Orbit
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
